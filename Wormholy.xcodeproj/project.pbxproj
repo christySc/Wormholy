@@ -322,6 +322,7 @@
 		52D6D9871BEFF229002C0205 /* Wormholy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* Wormholy.framework */; };
 		8933C7851EB5B820000D00A4 /* Wormholy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* Wormholy.swift */; };
 		8933C7901EB5B82D000D00A4 /* WormholyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* WormholyTests.swift */; };
+		CF2FA5BC21918B0700AEB21D /* String + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FA5BB21918B0700AEB21D /* String + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -655,6 +656,7 @@
 		8933C7891EB5B82A000D00A4 /* WormholyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WormholyTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* Wormholy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Wormholy.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* WormholyTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WormholyTests.plist; sourceTree = "<group>"; };
+		CF2FA5BB21918B0700AEB21D /* String + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1158,6 +1160,7 @@
 				455818C7207D620900D2F954 /* Models */,
 				454BBA362087B64E00EB13E9 /* Utils */,
 				451C9E5C2080EFC4002A34BC /* Support Files */,
+				CF2FA5BB21918B0700AEB21D /* String + extension.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1636,6 +1639,7 @@
 				45820CF6208170F400CA74D6 /* Colors.swift in Sources */,
 				453A167720ED1B02001CEB9D /* WHString.swift in Sources */,
 				452CC1322175FDB200CB5E21 /* CustomActivity.swift in Sources */,
+				CF2FA5BC21918B0700AEB21D /* String + extension.swift in Sources */,
 				45868F1420F4E2B10024C77B /* BodyDetailViewController.swift in Sources */,
 				45FF5C5220877A950084BD50 /* Section.swift in Sources */,
 				451C9E6920810B98002A34BC /* WHCollectionView.swift in Sources */,
