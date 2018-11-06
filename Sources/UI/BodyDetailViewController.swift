@@ -46,6 +46,7 @@ class BodyDetailViewController: WHBaseViewController {
         let hud = showLoader(view: view)
         RequestModelBeautifier.body(data) { [weak self] (stringData) in
             DispatchQueue.main.sync {
+                print(stringData)
                 self?.textView.text = stringData
                 self?.hideLoader(loaderView: hud)
             }
